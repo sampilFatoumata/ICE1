@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package card;
+import java.util.Random;
 
 /**
  * A class that fills a magic hand of 7 cards with random Card Objects
@@ -15,6 +16,7 @@ public class CardTrick {
     public static void main(String[] args)
     {
         Card[] magicHand = new Card[7];
+        Random rand=new Random();
         
         for (int i=0; i<magicHand.length; i++)
         {
